@@ -1,0 +1,67 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .vendor-selection-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .vendor-selection-container label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .vendor-selection-container select {
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .dashboard-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .dashboard-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button.monthly-sales {
+    background-color: #4caf50;
+  }
+  
+  .dashboard-button.monthly-sales:hover {
+    background-color: #45a049;
+  }
+  
+  .dashboard-button.all-time-sales {
+    background-color: #ff9800;
+  }
+  
+  .dashboard-button.all-time-sales:hover {
+    background-color: #e68900;
+  }
+  
